@@ -30,8 +30,7 @@ const BlogCardOne = (
                         <i className="bi bi-calendar-date text-[15px]" />
                         <span className="ml-2">24 Sep 2022 · 6:30 PM</span>
                     </li>
-                    <li className="flex items-center relative first:pl-0 pl-2 pr-2 before:content-[''] before:absolute before:h-2/3 before:w-[1px] before:bg-dark-2 before:-translate-y-1/2 before:top-1/2 before:left-0 ">
-                        250 View</li>
+                    
                 </ul>
                 <h3 className="card-title-alpha mt-4">
                     <Link href="/blog-details">

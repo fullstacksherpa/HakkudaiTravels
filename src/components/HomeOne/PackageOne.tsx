@@ -27,8 +27,6 @@ const PackageOne = () => {
                                 img={item.img}
                                 price={item.price}
                                 duration={item.duration}
-                                people={item.people}
-                                discount={item.discount}
                             />
                         ))
                     }

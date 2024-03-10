@@ -17,7 +17,7 @@ import siteConfig from '@/constant/Metadata/siteConfig'
 export const metadata: Metadata = {
     title: {
       default: siteConfig.name,
-      template: `%s - Full-stack Developer`,
+      template: `%s | Hakkudai`,
     },
     description: siteConfig.description,
   
@@ -49,6 +49,11 @@ export const metadata: Metadata = {
       title: siteConfig.name,
       description: siteConfig.description,
       siteName: siteConfig.name,
+      // images:[{
+      //   url: '',
+      //   width: 800,
+      //   height: 600,
+      // }]
     },
   };
   

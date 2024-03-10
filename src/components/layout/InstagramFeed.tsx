@@ -1,6 +1,8 @@
 'use client'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import InstagramData from '@/constant/common/InstagramData'
+import { TikTokEmbed } from 'react-social-media-embed';
+
 import Link from 'next/link';
 import Image from 'next/image';
 const InstagramFeed = () => {
@@ -56,24 +58,26 @@ const InstagramFeed = () => {
                      loop={false}
                      breakpoints = {{
                         320: {
-                            slidesPerView: 2
+                            slidesPerView: 1
                           },
                           480: {
-                            slidesPerView: 3
+                            slidesPerView: 2
                           },
                           768: {
-                            slidesPerView: 4
+                            slidesPerView: 3
                           },
                           1200: {
-                            slidesPerView: 5
+                            slidesPerView: 4
                           }
                      }}
-                     className='max-w-[1570px] mx-auto px-3 insta-feed-slider'
+                     className='max-w-[95%] mx-auto overflow-hidden px-3 insta-feed-slider'
                 >
                     {InstagramData.images?.map((item)=>(
                         <SwiperSlide key={item.id}>
                             <div className="relative overflow-hidden group">
-                            <Image 
+                            <TikTokEmbed url={item.url} width={325} />
+                              
+                            {/* <Image 
                                 src={item.img} 
                                 alt="instagram images"
                                 height={280}
@@ -81,7 +85,7 @@ const InstagramFeed = () => {
                                 className="w-full" />
                             <Link href="/" className="insta-feed-icon">
                                 <i className="bi bi-instagram" />
-                            </Link>
+                            </Link> */}
                         </div>
                         </SwiperSlide>
                     ))}
