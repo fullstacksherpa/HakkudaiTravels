@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import '@/styles/globals.css';
 import { Jost, Playfair_Display, Satisfy } from 'next/font/google';
 
@@ -32,6 +34,8 @@ export default function RootLayout({
     <html lang="en" className={`${jost.variable} ${playfairDisplay.variable} ${satisfy.variable}`}>
       <body>
         {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
