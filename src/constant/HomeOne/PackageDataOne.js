@@ -8,7 +8,6 @@ const PackageDataOne = {
             title: "Mustang",
             duration: '3N/4D',
             price: '12,999',
-            people: ''
         },
         {
             id: '2',
@@ -16,7 +15,6 @@ const PackageDataOne = {
             title: "Sukute Beach",
             duration: '1N/2D',
             price: '3,999',
-            people: ''
         },
         {
             id: '3',
@@ -24,7 +22,6 @@ const PackageDataOne = {
             title: "Kathmandu-Chitwan-Pokhara",
             duration: '3N/4D',
             price: '10,999',
-            people: ''
         },
         
     ]

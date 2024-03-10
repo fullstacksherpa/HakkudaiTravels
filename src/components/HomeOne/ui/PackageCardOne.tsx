@@ -2,14 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const PackageCardOne = (
-    {img, title, discount, duration, price, people} : 
+    {img, title,  duration, price,} : 
     {
         img: string, 
         title: string, 
-        discount?: string, 
         duration: string,
         price: string,
-        people: string
     }
     
     ) => {
@@ -27,8 +25,6 @@ const PackageCardOne = (
                         className="w-full group-hover/card:scale-105 duration-300" 
                     />
                 </Link>
-                {discount && <span className="absolute inline-block top-5 right-5 text-sm text-white rounded-full bg-[#219FFF] py-1 px-3">{discount}%
-                    off</span>}
             </div>
             <h3 className="card-title-alpha group-hover/card:text-primary-1 lg:mt-6 mt-5">
                 <Link href="/package-details">{title}</Link>
@@ -38,7 +34,6 @@ const PackageCardOne = (
                     <span className="text-primary-1">
                         <i className="bi bi-people" />
                     </span>
-                    <span>{people}</span>
                 </li>
                 <li>
                     <span className="text-primary-1">
