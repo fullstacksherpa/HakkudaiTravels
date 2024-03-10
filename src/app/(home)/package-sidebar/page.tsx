@@ -42,8 +42,6 @@ const PackageSidebar = () => {
                                     img={item.img}
                                     price={item.price}
                                     duration={item.duration}
-                                    people={item.people}
-                                    discount={item.discount}
                                 />
                             ))}
                         </div>
@@ -59,7 +57,7 @@ const PackageSidebar = () => {
                             </li>
                             <li><Link href="#" className=" font-medium lg:text-base text-sm text-dark-1 duration-150 hover:text-primary-1 inline-block">01</Link>
                             </li>
-                            <li><Link href="#" className=" font-medium lg:text-base text-sm text-dark-1 duration-150 hover:text-primary-1 inline-block text-primary-1">02</Link>
+                            <li><Link href="#" className=" font-medium lg:text-base text-sm text-dark-1 duration-150 hover:text-primary-1 inline-block ">02</Link>
                             </li>
                             <li><Link href="#" className=" font-medium lg:text-base text-sm text-dark-1 duration-150 hover:text-primary-1 inline-block">03</Link>
                             </li>
