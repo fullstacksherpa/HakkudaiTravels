@@ -2,9 +2,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import InstagramData from '@/constant/common/InstagramData'
 import { TikTokEmbed } from 'react-social-media-embed';
-
-import Link from 'next/link';
-import Image from 'next/image';
 const InstagramFeed = () => {
     return (
         <div className="instagram_feed_style__one lg:pt-30 pt-24 ">

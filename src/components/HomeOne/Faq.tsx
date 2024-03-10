@@ -8,13 +8,7 @@ const Faq = () => {
 
     const [activeIndex, setActiveIndex] = useState(null);
 
-    const handleClick = (index: any) => {
-        if (index === activeIndex) {
-            setActiveIndex(null);
-        } else {
-            setActiveIndex(index);
-        }
-    };
+    
 
     return (
         <div className="faq_style__one z-1 lg:pt-30 pt-24 mt-30 bg-gradient-to-t to-[#FFF1EC] from-white relative ">

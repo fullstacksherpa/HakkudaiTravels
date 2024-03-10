@@ -7,7 +7,7 @@ const AccordionSingle = (
     {
         index: number,
         question: string,
-        content: string
+        content: string,
     }
     
     ) => {

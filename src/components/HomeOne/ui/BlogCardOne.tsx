@@ -19,7 +19,7 @@ const BlogCardOne = (
                         src={img}
                         alt={title} 
                         placeholder="blur"
-                        blurDataURL='/assets/images/blur-placeholder.png'
+                        blurDataURL='/assets/images/blogs/placeholder.webp'
                         className="w-full hover:scale-105 duration-300" 
                     />
                 </Link>
