@@ -1,4 +1,4 @@
-import DestinationSidebar from '@/components/forms/DestinationSidebar'
+
 import Breadcrumb from '@/components/layout/Breadcrumb'
 import InstagramFeed from '@/components/layout/InstagramFeed'
 import { Metadata } from 'next'
@@ -28,7 +28,7 @@ const DestinationDetails = () => {
                 </div>
                 <div className="container">
                     <div className="grid grid-cols-12 gap-base">
-                        <div className="lg:col-span-8 col-span-12">
+                        <div className="lg:col-span-12 col-span-12">
                             <div className="disc__wrapper">
                                 <h3 className='!mt-0'>Visit Beauty of France.</h3>
                                 <p>Qui ad idque soluta deterruisset, nec sale pertinax mandamus et. Eu mei soluta scriptorem dissentiet, cu vel sensibus cotidieque. Ne per malorum vivendum principes, congue imperdiet cu vel. Sit cu stet autem eligendi, eros reprimique mel id, no pri tation altera. At soluta fierent laboramus eum.Nam at dicant deterruisset.</p>
@@ -101,9 +101,6 @@ const DestinationDetails = () => {
                                     </div>
                                 </form>
                             </div>
-                        </div>
-                        <div className="lg:col-span-4 col-span-12">
-                            <DestinationSidebar/>
                         </div>
                     </div>
                 </div>

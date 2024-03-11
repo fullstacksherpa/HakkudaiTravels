@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-import DetailsSidebar from '@/components/forms/DetailsSidebar'
 import Breadcrumb from '@/components/layout/Breadcrumb'
 import InstagramFeed from '@/components/layout/InstagramFeed'
 import PackageGallary from '@/components/package/PackageGallary'
@@ -35,7 +34,7 @@ const PackageDetailsTwo = () => {
                 </div>
                 <div className="container">
                     <div className="grid grid-cols-12 gap-base">
-                        <div className="lg:col-span-8 col-span-12">
+                        <div className="lg:col-span-12 col-span-12">
                             <ul className="bg-white lg:px-base px-5 lg:py-6 py-5 flex lg:overflow-hidden overflow-x-scroll lg:mt-[-40px] mt-base border">
                                 <li className="grow py-1 border-r border-primary-1 last:border-none px-5">
                                     <a href="#Information" className="flex items-center text-dark-2 justify-center duration-200 hover:text-primary-1 font-medium">
@@ -406,11 +405,6 @@ const PackageDetailsTwo = () => {
                                         </div>
                                     </div>
                                 </form>
-                            </div>
-                        </div>
-                        <div className="lg:col-span-4 col-span-12 lg:pt-20 pt-10 relative">
-                            <div className="lg:sticky top-[108px]">
-                                <PackageBookingForm />
                             </div>
                         </div>
                     </div>
