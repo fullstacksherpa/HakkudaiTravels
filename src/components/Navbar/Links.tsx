@@ -45,17 +45,17 @@ const Links = () => {
 
             <footer className="fixed  bottom-9 flex flex-col text-center text-black">
               <div className="mx-auto my-6 flex flex-row items-center gap-4">
-                <a href="https://github.com/fullstacksherpa" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=61556339705698" target="_blank">
                   <span className="hover:text-orange-500 inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-gray-200 text-xl transition-all duration-300 hover:-translate-y-2">
                     <SlSocialFacebook />
                   </span>
                 </a>
-                <a href="https://github.com/fullstacksherpa" target="_blank">
+                <a href="https://www.instagram.com/hakkudaitoursandtravel/" target="_blank">
                   <span className="hover:text-orange-500 inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-gray-200 text-xl transition-all duration-300 hover:-translate-y-2">
                     <SlSocialInstagram />
                   </span>
                 </a>
-                <a href="https://github.com/fullstacksherpa" target="_blank">
+                <a href="https://www.tiktok.com/@hakkudaitoursandtravel" target="_blank">
                   <span className="hover:text-orange-500 inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-gray-200 text-xl transition-all duration-300 hover:-translate-y-2">
                     <FaTiktok />
                   </span>

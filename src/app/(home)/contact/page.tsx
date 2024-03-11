@@ -24,6 +24,13 @@ const Contact = () => {
                     <img src="./assets/images/illustration/bird-illustration.png" alt="leaf" />
                 </div>
                 <div className="container">
+                <div className="lg:pt-16 pt-9">
+                        <div className="text-center lg:pb-[60px] pb-[40px]">
+                            <h5 className="section-sub-title-v1">Get in Touch</h5>
+                            <h2 className="section-title-v1">Feel Free to Contact with us</h2>
+                        </div>
+                   
+                    </div>
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-base">
                         <div className="shadow-custom-1 bg-white lg:py-8 py-7 px-base wow fadeInUp">
                             <div className="flex">
@@ -33,8 +40,7 @@ const Contact = () => {
                                 <div>
                                     <h4 className="text-dark-1 lg:text-2md text-md font-semibold">Email Us</h4>
                                     <ul className="text-dark-3 space-y-1 text-base font-medium mt-2">
-                                        <li><a href="mailto:info@supportcompany.com" className="hover:text-primary-1 duration-200">info@supportcompany.com</a></li>
-                                        <li><a href="mailto:info@exmple.com" className="hover:text-primary-1 duration-200">info@exmple.com</a></li>
+                                        <li><a href="mailto:hakkudaitoursandtravel@gmail.com" className="hover:text-primary-1 duration-200">hakkudaitoursandtravel@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -47,8 +53,8 @@ const Contact = () => {
                                 <div>
                                     <h4 className="text-dark-1 lg:text-2md text-md font-semibold">Call us</h4>
                                     <ul className="text-dark-3 space-y-1 text-base font-medium mt-2">
-                                        <li><a href="tel:+770434501097" className="hover:text-primary-1 duration-200">+7704345017</a></li>
-                                        <li><a href="tel:+866-398-5917" className="hover:text-primary-1 duration-200">+866-398-5917</a></li>
+                                        <li><a href="tel:+9779851359964" className="hover:text-primary-1 duration-200">+977-9851359964</a></li>
+                                        <li><a href="tel:+9779745296964" className="hover:text-primary-1 duration-200">+977-9745296964</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -61,19 +67,13 @@ const Contact = () => {
                                 <div>
                                     <h4 className="text-dark-1 lg:text-2md text-md font-semibold">Location</h4>
                                     <ul className="text-dark-3 space-y-1 text-base font-medium mt-2">
-                                        <li>Kathmandu, Nepal</li>
+                                        <li>Bhaktapur, Nepal</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="lg:pt-30 pt-24">
-                        <div className="text-center lg:pb-[60px] pb-[40px]">
-                            <h5 className="section-sub-title-v1">Get in Touch</h5>
-                            <h2 className="section-title-v1">Feel Free to Contact with us</h2>
-                        </div>
-                        <ContactForm/>
-                    </div>
+                    
                 </div>
             </div>
             {/*========== CONTACT US STYLE END ==========*/}

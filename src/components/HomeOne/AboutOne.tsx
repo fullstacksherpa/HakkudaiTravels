@@ -13,7 +13,9 @@ const AboutOne = () => {
             <div className="mt-7 xl:pl-24 lg:pl-20 relative before:content-[''] before:left-0 before:top-4 before:bg-[#d9d9d9] before:w-[10%] before:h-[1px] lg:before:absolute">
               <p className="regular-text-v1">{AboutDataOne.disc_text}</p>
               <h5 className="font-sans text-dark-1 text-md font-medium mt-4">
-                Speak with our CEO at Direct Call {AboutDataOne.contact}
+                Speak with our CEO at Direct Call <Link href={`tel:${AboutDataOne.contact}`} className="leading-1.5 text-base hover:text-orange-400">
+                                        {AboutDataOne.contact}
+                                    </Link> 
               </h5>
             </div>
             <ul className="pt-6 lg:text-md text-base">

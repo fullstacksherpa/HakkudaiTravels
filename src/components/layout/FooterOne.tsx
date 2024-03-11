@@ -19,19 +19,19 @@ const FooterOne = () => {
         </div>
           </Link>
                     <div className="flex align-middle justify-center lg:gap-x-9 gap-y-5 gap-x-7 flex-wrap">
-                        <Link href={FooterDataOne.whatsappLink} className="inline-flex items-center group">
+                        <Link href={FooterDataOne.whatsappLink} target='_blank' className="inline-flex items-center group">
                             <div className="social_icon_varient__one">
                                 <i className="bi bi-whatsapp" />
                             </div>
                            
                         </Link>
-                        <Link href={FooterDataOne.twitterLink} className="inline-flex items-center group">
+                        <Link href={FooterDataOne.twitterLink} target='_blank' className="inline-flex items-center group">
                             <div className="social_icon_varient__one">
                                 <i className="bi bi-twitter" />
                             </div>
                            
                         </Link>
-                        <Link href={FooterDataOne.instagramLink} className="inline-flex items-center group">
+                        <Link href={FooterDataOne.instagramLink} target='_blank' className="inline-flex items-center group">
                             <div className="social_icon_varient__one">
                                 <i className="bi bi-instagram" />
                             </div>
