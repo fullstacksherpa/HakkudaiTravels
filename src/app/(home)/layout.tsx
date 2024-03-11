@@ -1,14 +1,14 @@
 
+import Navbar from "@/components/Navbar/Navbar";
 import FooterOne from "@/components/layout/FooterOne";
-import HeaderOne from "@/components/layout/HeaderOne";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <>
-            <HeaderOne />
-            <main className="xl:pt-[100px] pt-[72px]">
+            <Navbar />
+            
                 {children}
-            </main>
+            
             <FooterOne />
         </>
     );

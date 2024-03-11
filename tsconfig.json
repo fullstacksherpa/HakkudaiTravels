@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/HomeDark", "src/constant/HomeDark/HeroTwoData.js", "src/constant/HomeParallax/FeaturesData.js", "src/constant/dashboard/BookingData.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/HomeDark", "src/constant/HomeDark/HeroTwoData.js", "src/constant/HomeParallax/FeaturesData.js", "src/constant/dashboard/BookingData.js", "src/constant/Navbar/navData.js"],
   "exclude": ["node_modules"]
 }
