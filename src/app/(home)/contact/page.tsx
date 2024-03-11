@@ -13,10 +13,7 @@ export const metadata: Metadata = {
 const Contact = () => {
     return (
         <>
-             <Breadcrumb
-                page='Contact Us'
-                pageTitle='A Feel Free to Contact with us'
-            />
+    
             
             {/*========== CONTACT US STYLE START ==========*/}
             <div className="lg:pt-30 pt-24  relative z-1 bg-gradient-to-t to-[#FFF1EC] from-white">
@@ -62,9 +59,9 @@ const Contact = () => {
                                     <i className="bi bi-geo-alt" />
                                 </div>
                                 <div>
-                                    <h4 className="text-dark-1 lg:text-2md text-md font-semibold">Email Us</h4>
+                                    <h4 className="text-dark-1 lg:text-2md text-md font-semibold">Location</h4>
                                     <ul className="text-dark-3 space-y-1 text-base font-medium mt-2">
-                                        <li><a href="mailto:info@supportcompany.com" className="hover:text-primary-1 duration-200">4517 Washington Ave. Manchester, Kentucky 39495</a></li>
+                                        <li>Kathmandu, Nepal</li>
                                     </ul>
                                 </div>
                             </div>

@@ -17,21 +17,7 @@ const BlogData = {
             title: "The highest lake in the world - Tilicho lake.",
             img: "/assets/images/blogs/blogtilicho.webp",
         },
-        {
-            id: '4',
-            title: "Indulge in purest forms of body care with.",
-            img: "/assets/images/blog/b1-4.webp",
-        },
-        {
-            id: '5',
-            title: "Indulge in purest forms of body care with.",
-            img: "/assets/images/blog/b1-5.webp",
-        },
-        {
-            id: '6',
-            title: "Indulge in purest forms of body care with.",
-            img: "/assets/images/blog/b1-6.webp",
-        },
+       
     ]
 }
 export default BlogData;

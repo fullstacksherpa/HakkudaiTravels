@@ -38,9 +38,7 @@ const PackageOne = () => {
                             fill
                         />
                         <div className='relative z-3'>
-                            <h3 className="lg:text-3xl text-2xl leading-1.5 text-white font-medium">Book now and get 20% off
-                            </h3>
-                            <Link href="/package-sidebar" className="btn_primary__v1 border border-white mt-base">View
+                            <Link href="/package" className="btn_primary__v1 border border-white mt-base">View
                                 More</Link>
                         </div>
                     </div>

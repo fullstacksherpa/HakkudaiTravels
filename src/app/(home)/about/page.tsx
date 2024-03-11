@@ -14,13 +14,9 @@ export const metadata: Metadata = {
 const About = () => {
     return (
         <>
-            <Breadcrumb
-                page='About Us'
-                pageTitle='A Better Way of Traveling'
-            />
+            
             <div className="bg-gradient-to-t to-[#FFF1EC] from-white">
                 <AboutOne />
-                <FeaturedPackages />
             </div>
             <TestimonialOne />
             <InstagramFeed />

@@ -12,7 +12,7 @@ const BlogCardOne = (
     return (
         <div className="blog_card__one group wow fadeInUp" data-wow-delay="0.2s">
             <div className="overflow-hidden">
-                <Link href="/blog-details">
+                <Link href="/attraction">
                     <Image 
                         height={445.95}
                         width={500}

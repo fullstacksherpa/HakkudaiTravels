@@ -3,7 +3,6 @@ const CategoryDataOne = {
     sub_title: 'About Us',
     disc_text: "We are committed to delivering maximum value for your investment. By aligning with your preferences, we offer tailored recommendations for destinations based on seasonal considerations. ",
     contact: '+977 546 378 654',
-    imgUrl: '/assets/images/about/about1-1.webp',
     features:[
         "All places and activiates are carefully picked by us.",
         "Dedicated and dynamic guides ready to assist you through any conceivable challenge.",

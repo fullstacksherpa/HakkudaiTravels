@@ -4,21 +4,21 @@ const TestimonialDataOne = {
     testimonials:[
         {
             id: '1',
-            avater: '/assets/images/touriest/testi-avater.webp',
-            reviewer: "Johan Martin Sr",
-            review_desc: "This app makes it so easy to discover and book incredible tours all over the world. Intuitive interface and great prices - I'll definitely use it again!"
+            avater: '/assets/images/avatar/amit.webp',
+            reviewer: "Amit Sharma",
+            review_desc: "I recently embarked on one of the most unforgettable trips of my life to Mustang, accompanied by the exceptional services of Hakkudai. I cannot emphasize enough how outstanding their commitment to customer satisfaction is."
         },
         {
             id: '2',
-            avater: '/assets/images/touriest/testi-avater-2.webp',
-            reviewer: "Johan Martin Sr",
-            review_desc: "With its user-friendly design and expansive inventory of tour options, this app enabled me to effortlessly plan an unforgettable vacation."
+            avater: '/assets/images/avatar/ong.webp',
+            reviewer: "Ongchen",
+            review_desc: "Having a guide who speaks perfect English and is not only easy to communicate with but also exudes friendliness is truly a game-changer for any travel experience. During my trip to Pokhara with Hakkudai, our guide was a standout element of the journey."
         },
         {
             id: '3',
-            avater: '/assets/images/touriest/testi-avater-3.webp',
-            reviewer: "Jhon Freecat",
-            review_desc: "I love having the ability to customize my tour search and compare companies, prices and reviews in one place. This app saves me time and money!"
+            avater: '/assets/images/avatar/tse.webp',
+            reviewer: "Tsering",
+            review_desc: "traveling with such an experienced and knowledgeable guide truly elevates the entire tour to another level."
         },
     ]
 }

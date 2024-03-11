@@ -12,13 +12,11 @@ const FooterOne = () => {
         <div className="footer_style__one bg-center bg-cover bg-no-repeat mt-17 pt-17 bg-fixed overflow-hidden" style={{ background: `linear-gradient( rgba(1, 8, 11, .8)9%, rgba(8, 8, 11, .8)9%), url("${FooterDataOne.bgImg}")` }}>
             <div className="container">
                 <div className="flex lg:justify-between justify-center items-center flex-wrap gap-base pb-base">
-                <Link href="/" className="shrink-0 max-w-[50px]">
-            <div
-              className={`${font.className} from-[#df6951] flex flex-col bg-gradient-to-r via-orange-400 to-yellow-500 bg-clip-text font-bold text-transparent`}
-            >
-              <p>HAKKUDAI</p>
-              <p>TRAVELS </p>
-            </div>
+                <Link href="/" className="shrink-0 max-w-[90px]">
+                <div className="from-[#d04529] flex flex-col bg-gradient-to-r via-[#f1ab5f] to-[#e9731f] bg-clip-text font-bold text-transparent text-lg md:text-5xl">
+          <p>Hakkudai</p>
+          <p>TRAVELS </p>
+        </div>
           </Link>
                     <div className="flex align-middle justify-center lg:gap-x-9 gap-y-5 gap-x-7 flex-wrap">
                         <Link href={FooterDataOne.whatsappLink} className="inline-flex items-center group">
@@ -52,9 +50,9 @@ const FooterOne = () => {
                             </div>
                             <ul className="footer-link-list">
                                 <li><Link href="/" className="footer-nav-link">Home</Link></li>
-                                <li><Link href="/package-sidebar" className="footer-nav-link">All Trips</Link></li>
+                                <li><Link href="/package" className="footer-nav-link">All Trips</Link></li>
                                 <li><Link href="/attraction" className="footer-nav-link">Attractions</Link></li>
-                                <li><Link href="/about" className="footer-nav-link">About Us</Link></li>
+                                <li><Link href="/contact" className="footer-nav-link">Contact</Link></li>
                             </ul>
                         </div>
                         <div className="flex-grow">
@@ -63,10 +61,10 @@ const FooterOne = () => {
                                 </h3>
                             </div>
                             <ul className="footer-link-list">
-                                <li><Link href="/package-sidebar" className="footer-nav-link">Mustang</Link></li>
-                                <li><Link href="/package-sidebar" className="footer-nav-link">Pokhara</Link></li>
-                                <li><Link href="/package-sidebar" className="footer-nav-link">Kalinchowk</Link></li>
-                                <li><Link href="/package-sidebar" className="footer-nav-link">Chitwan</Link></li>
+                                <li><Link href="/package" className="footer-nav-link">Mustang</Link></li>
+                                <li><Link href="/package" className="footer-nav-link">Pokhara</Link></li>
+                                <li><Link href="/package" className="footer-nav-link">Kalinchowk</Link></li>
+                                <li><Link href="/package" className="footer-nav-link">Chitwan</Link></li>
                             </ul>
                         </div>
                         <div className="max-w-[275px] flex-grow shrink-0 ">

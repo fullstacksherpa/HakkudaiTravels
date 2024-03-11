@@ -2,31 +2,27 @@ const ClientsDataOne = {
     clients:[
         {
             id: '1',
-            logo: '/assets/images/pratners/p1.png',
+            logo: '/assets/images/blogs/mboudha.jpg',
         },
         {
             id: '2',
-            logo: '/assets/images/pratners/p2.png',
+            logo: '/assets/images/oldone/bgpokhara.jpg',
         },
         {
             id: '3',
-            logo: '/assets/images/pratners/p3.png',
+            logo: '/assets/images/oldone/bgvalley.jpg',
         },
         {
             id: '4',
-            logo: '/assets/images/pratners/p4.png',
+            logo: '/assets/images/blogs/blogmustang.webp',
         },
         {
             id: '5',
-            logo: '/assets/images/pratners/p5.png',
+            logo: '/assets/images/blogs/blogpokhara.webp',
         },
         {
             id: '6',
-            logo: '/assets/images/pratners/p6.png',
-        },
-        {
-            id: '7',
-            logo: '/assets/images/pratners/p2.png',
+            logo: '/assets/images/blogs/blogtilicho.webp',
         },
        
     ]

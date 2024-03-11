@@ -4,8 +4,8 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Blog Details | Arid - Travel & Tourism HTML/Tailwind CSS Template",
-  description: "Welcome, Arid - Travel & Tourism HTML/Tailwind CSS Template",
+  title: "Blog | Mustang",
+  description: "",
   keywords: [
     "tour",
     "travel",
