@@ -36,7 +36,7 @@ const Links = () => {
           <div className="bg-white fixed  flex h-full w-[90%] flex-col items-center px-4 pt-[50px]">
             <IoClose className="absolute right-9 top-6 text-4xl"/>
             <div className="flex flex-col items-center gap-7 pt-[10px]">
-              <ul className="mt-[59px] flex flex-col gap-7 text-4xl">
+              <ul className="mt-[59px] flex flex-col gap-7 text-xl">
                 {links.map((link) => (
                   <NavLink title={link.title} path={link.path} />
                 ))}

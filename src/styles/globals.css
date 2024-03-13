@@ -37,7 +37,7 @@ Common Text Classes
 ===========================================================
 */
 .section-title-v1{
-  @apply text-dark-1 font-medium lg:text-3xl text-2xl;
+  @apply text-dark-1 font-medium lg:text-3xl text-lg md:text-2xl;
 }
 .section-title-v2{
   @apply font-bold lg:text-2xl md:text-xl text-[28px] leading-[1.46] mt-[10px];

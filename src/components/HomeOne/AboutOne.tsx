@@ -1,15 +1,14 @@
 import AboutDataOne from "@/constant/HomeOne/AboutDataOne";
-import Image from "next/image";
 import Link from "next/link";
 
 const AboutOne = () => {
   return (
     <div className="about_style__one lg:pt-30 pt-24 relative">
       <div className="container">
-        <div className="grid gap-base items-center max-w-[60%] place-items-center mx-auto">
+        <div className="grid gap-base items-center max-w-[95%] md:max-w-[80%] place-items-center mx-auto">
           <div className="div">
             <h5 className="section-sub-title-v1">{AboutDataOne.sub_title}</h5>
-            <h2 className="section-title-v1 max-w-xl">{AboutDataOne.title}</h2>
+            <h2 className="section-title-v1 max-w-xl ">{AboutDataOne.title}</h2>
             <div className="mt-7 xl:pl-24 lg:pl-20 relative before:content-[''] before:left-0 before:top-4 before:bg-[#d9d9d9] before:w-[10%] before:h-[1px] lg:before:absolute">
               <p className="regular-text-v1">{AboutDataOne.disc_text}</p>
               <h5 className="font-sans text-dark-1 text-md font-medium mt-4">
@@ -28,7 +27,7 @@ const AboutOne = () => {
                 </li>
               ))}
             </ul>
-            <div className="mt-10">
+            <div className="mt-10 flex justify-center items-center">
               <Link href="/about" className="btn_primary__v1">
                 Find Out More
                 <svg
