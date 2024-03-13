@@ -27,24 +27,23 @@ const Links = () => {
         </ul>
       </div>
       <div onClick={() => setOpen(!open)} className="cursor-pointer hover:scale-110 md:hidden text-2xl">
-        {open ? <GiCrossMark /> : <GiHamburgerMenu />}
+        {open ? <IoClose className="text-4xl" /> : <GiHamburgerMenu />}
       </div>
       {open && (
         <div
-          className="bg-blur-md fixed right-0 -top-[9%] flex h-screen w-full flex-col items-end backdrop-blur-sm md:hidden z-[5999]"
+          className="fixed right-0  flex h-screen w-full flex-col items-end backdrop-blur-lg md:hidden z-[5999] overflow-y-hidden "
           onClick={toggleMenu}>
           <div className="bg-white fixed  flex h-full w-[90%] flex-col items-center px-4 pt-[50px]">
-            <IoClose className="absolute right-9 top-6 text-4xl"/>
             <div className="flex flex-col items-center gap-7 pt-[10px]">
-              <ul className="mt-[59px] flex flex-col gap-7 text-xl">
+              <ul className="mt-[40px] flex flex-col gap-7 text-xl">
                 {links.map((link) => (
                   <NavLink title={link.title} path={link.path} />
                 ))}
               </ul>
             </div>
 
-            <footer className="fixed  bottom-9 flex flex-col text-center text-black">
-              <div className="mx-auto my-6 flex flex-row items-center gap-4">
+            <footer className="flex flex-col text-center text-black mt-11">
+              <div className="mx-auto my-2 pt-9 flex flex-row items-center gap-4">
                 <a href="https://www.facebook.com/profile.php?id=61556339705698" target="_blank">
                   <span className="hover:text-orange-500 inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-gray-200 text-xl transition-all duration-300 hover:-translate-y-2">
                     <SlSocialFacebook />
