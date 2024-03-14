@@ -10,6 +10,7 @@ const FooterDataOne ={
     youtubeLink: "https://www.instagram.com/hakkudaitoursandtravel/",
     copyrightText: "© Hakkudai Travels | All rights reserved.",
     phone: "+977 9851359964",
+    phone2: "+977 9808096613",
     email: "hakkudaitoursandtravel@gmail.com",
     address: 'Bhaktapur, Nepal'
 }

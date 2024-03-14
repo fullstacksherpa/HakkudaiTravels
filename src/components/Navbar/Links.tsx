@@ -35,14 +35,14 @@ const Links = () => {
           onClick={toggleMenu}>
           <div className="bg-white fixed  flex h-full w-[90%] flex-col items-center px-4 pt-[50px]">
             <div className="flex flex-col items-center gap-7 pt-[10px]">
-              <ul className="mt-[40px] flex flex-col gap-7 text-xl">
+              <ul className="mt-[20px] flex flex-col gap-4 text-lg">
                 {links.map((link) => (
                   <NavLink title={link.title} path={link.path} />
                 ))}
               </ul>
             </div>
 
-            <footer className="flex flex-col text-center text-black mt-11">
+            <footer className="flex flex-col text-center text-black mt-5">
               <div className="mx-auto my-2 pt-9 flex flex-row items-center gap-4">
                 <a href="https://www.facebook.com/profile.php?id=61556339705698" target="_blank">
                   <span className="hover:text-orange-500 inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full bg-gray-200 text-xl transition-all duration-300 hover:-translate-y-2">
