@@ -366,6 +366,22 @@ Styling for long TW class
   text-shadow: hsla(20, 91%, 53%, 0.6) -2px 2px 30px
 }
 
+.hero-glow-nepal{
+  font-family: Poppins;
+  color: rgba(30, 69, 212, 0.95);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(30, 69, 212, 0.95);
+  text-shadow: hsla(232, 58%, 40%, 0.6) -2px 2px 30px
+}
+  
+.hero-glow-pal{
+
+  font-family: Poppins;
+  color: rgba(235, 65, 8, 0.95);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(245, 95, 45, 0.95);
+  text-shadow: hsla(13, 84%, 56%, 0.6) -2px 2px 30px
+}
 .jarallax {
   height: 100%;
 }

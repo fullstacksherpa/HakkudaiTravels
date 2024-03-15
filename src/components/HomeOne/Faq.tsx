@@ -21,8 +21,8 @@ const Faq = () => {
                     <h2 className="section-title-v1">{FaqData.title}</h2>
                 </div>
 
-                <div className='grid grid-cols-2 gap-[30px]'>
-                    <div className='flex flex-col gap-[30px]'>
+                <div className='grid md:grid-cols-2 grid-cols-1 gap-[16px] md:gap-[30px]'>
+                    <div className='flex flex-col md:gap-[30px] gap-[18px]'>
                         {FaqData?.faqs?.slice(0, FaqData?.faqs?.length / 2).map((item, index) => (
                             <AccordionSingle
                                 index={index}
@@ -32,7 +32,7 @@ const Faq = () => {
                             />
                         ))}
                     </div>
-                    <div className='flex flex-col gap-[30px]'>
+                    <div className='flex flex-col md:gap-[30px] gap-[18px]'>
                         {FaqData?.faqs?.slice(FaqData?.faqs?.length / 2, FaqData?.faqs?.length).map((item, index) => (
                             <AccordionSingle
                                 index={index + FaqData.faqs.length / 2}

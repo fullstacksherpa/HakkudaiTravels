@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const CategoryOne = () => {
     return (
-        <div className="tour_type_style__one lg:pt-30 pt-24 relative z-1 ">
+        <div className="tour_type_style__one lg:pt-30 pt-12 relative z-1 ">
             <div className="absolute top-[10%] left-[2%] max-w-[9%] z-minus lg:inline-block hidden">
                 <img src="./assets/images/illustration/leaf-illustration.png" alt="leaf" />
             </div>
