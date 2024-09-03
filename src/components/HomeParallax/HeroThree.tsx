@@ -1,5 +1,5 @@
 'use client'
-import { Parallax } from 'react-parallax'
+import {Parallax} from 'react-parallax'
 
 
 const HeroThree = () => {
@@ -15,7 +15,7 @@ const HeroThree = () => {
                 <div className="lg:pb-40 pb-9 lg:pt-[260px] pt-48 relative z-3">
                     <div className="container">
                         <div className="max-w-[900px] mx-auto text-center text-white">
-                            <h1 className="xl:text-7xl lg:text-4xl text-3xl font-semibold leading-1.2 hero-glow-text">Experience <span className='hero-glow-nepal'>Ne<span className='hero-glow-pal'>pal</span></span></h1>
+                            <h1 className="xl:text-7xl lg:text-4xl text-3xl font-bold leading-1.9 hero-glow-text">Experience Nepal</h1>
                             <div className="max-w-[700px] mx-auto">
                                 <p className="lg:text-[25px] md:text-2md text-base pt-4 leading-1.7">Where endless Himalayas meets vibrant culture and limitless adventure
                                 </p>
